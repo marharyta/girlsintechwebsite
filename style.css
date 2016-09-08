@@ -2,28 +2,113 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 @import 'https://fonts.googleapis.com/css?family=Lato';
 @import 'https://fonts.googleapis.com/css?family=Inconsolata';
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+@import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
 
 *{
   font-family: 'Lato', sans-serif;
 }
 
-h2,h4{
+p{
+  letter-spacing: 150%;
+  line-height: 150% !important;
+}
+
+
+.main-wrapper{
+  
+}
+
+
+
+
+/*utility css*/
+.section-title-left{
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-title-middle{
   text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/*date*/
-
-#date{
-      background-color: antiquewhite;
-    border-radius: 50%;
-    width: 20px;
+.blur{
+  background-color: rgba(120, 140, 130, 0.5);
+  width: 100%;
+  height: 100%;
 }
+
+/* agenda css*/
+.absolutely{
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    top: 99vh;
+    left: 65%;
+    width: 300px;
+    min-height: 800px;
+    box-shadow: 10px 10px     grey;
+    
+   z-index: 2; 
+}
+
+.agenda{
+  padding-right: 30px;
+}
+
+.agenda li{
+  list-style-type: none;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.agenda li span{
+    font-family: 'Playfair Display', serif;
+     font-family: 'Bungee Inline', cursive;
+   text-transform: uppercase;
+   font-size: 1.6em;
+   background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* quote in about section*/
+
+.quote{
+  display: block;
+  border-top: 20px solid orange;
+  border-bottom: 20px solid orange;
+  margin: 30px 0px;
+  padding: 30px;
+  font-style: italic;
+  font-family: serif;
+  font-size: 1.6em;
+}
+
+
+#map {
+        height: 300px;
+        width: 100%;
+        z-index: 20000;
+      }
+
+
 
 /* hero image css*/
 
 .hero{
   height: 800px;
   height: 100vh;
+  background-color: black;  
   background-image: url("http://www.nordicstartupbits.com/wp-content/uploads/2016/02/girls-in-tech.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -33,23 +118,43 @@ h2,h4{
   overflow: hidden;
 }
 
+.gradient{
+  background: rgba(194,29,136,0.61);
+  background: -moz-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(194,29,136,0.61)), color-stop(52%, rgba(117,24,240,0.61)), color-stop(54%, rgba(153,52,247,0.61)), color-stop(70%, rgba(224,99,83,0.61)), color-stop(100%, rgba(255,119,0,0.61)));
+  background: -webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -o-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -ms-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: linear-gradient(to right, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c21d88', endColorstr='#ff7700', GradientType=1 );
+  
+}
+
 .pink-blur{
   display: block;
-  background-color: rgba(255,182,193, 0.8);
+  background-color: rgba(136, 120, 140, 0.64);
   width: 100%;
   height: 120%;
-  padding-top: 300px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
+
 }
 
 .hero h1{
-  font-family: 'Bungee Inline', cursive;
-  font-size: 7em;
+ font-family: 'Bungee Inline', cursive;
+  
+  
+  font-size: 5em;
   display: block;
   margin: 0px auto;
   width: 95%;
   color: white;
   text-align: center;
   letter-spacing: 2px;
+  vertical-align: middle;
+
+  
 }
 .hero .info{
   display: block;
@@ -86,7 +191,7 @@ h2,h4{
 
 /* about event css*/ 
 
-.event-background{
+/*.event-background{
   background-color: pink;
   background-image: url("https://girlsintechlondon.files.wordpress.com/2014/01/img_8901.jpg");
   background-size: cover;
@@ -111,83 +216,130 @@ h2,h4{
   margin-right: auto;
 }
 
-.agenda li{
-  list-style-type: none;
-  display: block;
-  width: 100%;
-  height: 80px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  box-sizing: border-box;
-}
 
-.agenda li span{
-    font-family: 'Bungee Inline', cursive;
-    font-size: 1.2em;
-    display: inline-block;
-    background-color: white;
-    height: 100%;
-    width: 15%;
-    /* padding: 30px; */
-    box-sizing: border-box;
-    text-align: center; 
-     letter-spacing: 5px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
-
-}
 
 .agenda li p{
     display: inline-block;
     width: 84%;
-    /* font-size: 1.2em; */
+   
     background-color: white;
     height: 80px;
     box-sizing: border-box;
-    /* margin-bottom: 10px; */
+    
     padding-top: 32px;
         padding-left: 15px;
     margin-left: 5px;
-}
+}*/
 
 
 /* speakers section */
-.speakers{
-  background-color: rgba(255,182,193, 0.8);
-}
-.speakers ul li{
-  display: block;
-  width: 50%;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  list-style-type: none;
+
+.speaker-img{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 20px;
+
+  transform: translate(20px, 20px);
+  box-shadow: -10px -10px orange;
 }
 
-.speakers ul li div img{
-  display: inline-block; 
-  width: 20%;
+/* speakers portraits*/
+#mikael{
+  background-image: url("http://blogit.haaga-helia.fi/oncampus/files/2012/09/22.png");
 }
-.speakers ul li div   .speaker-info{
-  display: inline-block; 
-  width: 78%;
-  padding-left: 20px;
+
+#jaana{
+  background-image: url("https://lh3.googleusercontent.com/-3uhEihzFG78/AAAAAAAAAAI/AAAAAAAAAAA/Jo_EpGmQ3e0/photo.jpg");
+}
+
+#marcia{
+   background-image: url("http://blogit.haaga-helia.fi/oncampus/files/2012/09/22.png");
+}
+
+#chryssa{
+   background-image: url("http://blogit.haaga-helia.fi/oncampus/files/2012/09/22.png");
+}
+
+#juhani{
+   background-image: url("http://blogit.haaga-helia.fi/oncampus/files/2012/09/22.png");
+}
+
+.speakers  .speaker-info{
+  display: block; 
+  padding-left: 10px;
   box-sizing: border-box;
 }
-.speakers ul li div{
-  display: block; 
+.speakers .speaker-info h4{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    /* transform: translate(-20px, -20px); */
+    position: relative;
+    right: -60px;
+    top: -55px;
+    text-align: center;
+    width: 200px;
+    z-index: 500;
+}
+
+.speakers p{
+   background-color: white;
+  box-shadow: 10px 10px orange;
+  padding: 20px; 
+  position: relative;
+  right: 0px;
+  top: -55px;
 }
 
 
 
+.coaches{
+  background-color: orange;
+  background-image: url("http://imgc.allpostersimages.com/images/P-473-488-90/92/9297/KWT5500Z/posters/noppadon-sangpeam-white-marble-texture-detailed-structure-of-marble-in-natural-patterned-for-background-and-design.jpg"); 
+}
+
+.coach-img{
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 20px;
+
+  transform: translate(20px, 20px);
+  box-shadow: -10px -10px grey;
+}
+
+.coaches .coach-info{
+  display: block; 
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+
+.coaches .coach-info h4{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    /* transform: translate(-20px, -20px); */
+    position: relative;
+    right: -60px;
+    top: -55px;
+    text-align: center;
+    width: 200px;
+    z-index: 500;
+}
+
+.coaches p{
+  background-color: white;
+  box-shadow: 10px 10px grey;
+  padding: 20px; 
+  position: relative;
+  right: 0px;
+  top: -55px;
+}
 /*
 
-#map {
-        height: 200px;
-        width: 100%;
-        z-index: 20000;
-      }
+
 #content{
   z-index: 20009;
   height: 100px;
@@ -214,6 +366,8 @@ h2,h4{
   background-image: url("http://frosmo.com/en/wp-content/uploads/2016/05/frosmo_epic_cut.jpg");
 }
 
-
-
 */
+
+.frosmo{
+  background-image: url("https://media.licdn.com/media/AAEAAQAAAAAAAAkDAAAAJGE5NWVhZDE1LTczNTgtNGQxMC1iZGQ5LTNlNTJhZDJhOTAyMg.png");
+}

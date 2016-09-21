@@ -59,7 +59,7 @@
                 </span>
                 <span class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <b> Frosmo Helsinki Office, Kaivokatu 6 Helsinki</b>
+                  <b> Frosmo Helsinki Office, Kaivokatu 6, 00100 Helsinki</b>
                 </span>
                 <span class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
                   <i class="fa fa-ticket" aria-hidden="true"></i>
@@ -94,10 +94,10 @@
                         styles: styleArray,
                         scrollwheel: false
                     };
-                    var contentString = '<div id="content">'+
+                    var contentString = '<div id="content-map">'+
                                         '<div class="event-time"><p>29.10.2016 at 10:30am</p></div>'+
                                         '<h1 id="firstHeading" class="firstHeading">FROSMO Office</h1>'+
-                                        '<small> FROSMO Helsinki Office, Kaivokatu 6 Helsinki</small>'+
+                                        '<small> <a href="https://www.google.fi/maps/place/Frosmo+Ltd./@60.1700438,24.9388779,17z/data=!3m1!4b1!4m5!3m4!1s0x46920bc943362fbf:0xfdb061e18f21c1d5!8m2!3d60.1700438!4d24.9410666?hl=en" target="_blank"> FROSMO Helsinki Office, Kaivokatu 6, Helsinki </a></small>'+
                                         '</div>';
 
                     var map;
@@ -133,14 +133,14 @@
                   <ul class="agenda">
                     <li><span>10:00 </span> Registration, coffee, networking</li>
                     <li><span>10:30 </span> Welcoming words by Jaana Pylvänen, Co-Director, Girls in Tech Helsinki</li>
-                    <li><span>10:45 </span> "Importance of diversity in the work place" Mikael Gummerus, CEO, Frosmo</li>
+                    <li><span>10:45 </span> "Importance of diversity in the work place", Mikael Gummerus, CEO & Founder of FROSMO</li>
                     <li><span>11:00 </span> HTML/CSS/JavaScript Workshop starts</li>
-                    <li><span>13:00 </span> "My Story in Tech" - Marcia Villalba. Senior Lead Developer at Rovio.</li>
+                    <li><span>13:00 </span> "My Story in Tech", Marcia Villalba, Senior Lead Developer at Rovio.</li>
                     <li><span>13:30 </span> Lunch break, networking</li>
-                    <li><span>14:15 </span> "My Story in Tech" - Chryssa Skodra, social media expert</li>
+                    <li><span>14:15 </span> "My Story in Tech", Chryssa Skodra, social media expert</li>
                     <li><span>14:40 </span> HTML/CSS/JavaScript Workshop continues</li>
                     <li><span>16:30 </span> Coffee break </li>
-                    <li><span>16:40 </span> "Programming is the easiest way to conquer the world – especially for a girl" Juhani Mykkänen, Co-founder at Wolt </li>
+                    <li><span>16:40 </span> "Programming is the easiest way to conquer the world – especially for a girl", Juhani Mykkänen, Co-founder at Wolt </li>
                     <li><span>17:15 </span> HTML/CSS/JavaScript Workshop continues</li>
                     <li><span>19:00 </span> Achievement Demo & networking</li>
                     <li><span>19:30 </span> Wrap up</li>
@@ -168,7 +168,7 @@
                   The event is <b>free of charge</b> and open for both women and men.
                   <br>
                   <br>
-                  The event has capacity for <b>20 people</b> and the application period <b>deadline is October 9,2016 at 23:59</b>. All the applicants will be notified of the results on October 17, 2016 via e-mail. Please bring your own computer for this session.
+                  The event has capacity for <b>20 people</b> and the application period <b>deadline is October 9, 2016 at 23:59</b>. All the applicants will be notified of the results on October 17, 2016 via e-mail. Please bring your own computer for this session.
 
                 </p>
 
@@ -251,7 +251,33 @@
                         <div class="speaker-img" id="mikael"></div>
                         <div class="speaker-info">
                           <h4 class="name">Mikael Gummerus</h4>
-                          <div class="speaker-info-advanced">
+                          <!-- For mobile -->
+                          <div class=" hidden-md hidden-lg">
+                              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
+                                <div class="">
+                                  <div class="speaker-media-links">
+                                    <ul>
+                                      <li>
+                                        <a href="https://fi.linkedin.com/in/mgummerus" target="_blank">
+                                          <img src="img/linkedin.png">
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div class="speaker-par">
+                                    <p>
+                                      Mikael Gummerus is a CEO and founder of FROSMO, a company specialised in Single Tag based UI improvement methodology. Since 2008 Frosmo has grown to over 100 employees and works with customers like Decathlon, Mediamarkt, Finnair and Mondelez.
+                                      <br>
+
+                                      Mikael is also a co-founder and chairman of the board of Dodreams mobile game studio with hit-game Drive Ahead!. Before entrepreneurship Mikael worked at Fremantle Media, a part of Bertelsmann group.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                                
+                          </div>
+                          <!--For desktop -->
+                          <div class="speaker-info-advanced hidden-xs hidden-sm">
                             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
                               <div class="speaker-img" id="mikael"></div>
                               <div class="">
@@ -263,37 +289,52 @@
                                         <img src="img/linkedin.png">
                                       </a>
                                     </li>
-                                    <li>
-                                      <a href="" target="_blank">
-                                        <img src="img/facebook.png">
-                                      </a>
-                                    </li>
                                   </ul>
                                 </div>
-                                <div class="xs-hidden sm-hidden">
+                                <div class="hidden-xs hidden-sm speaker-par">
                                   <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                  </p>
+                                      Mikael Gummerus is a CEO and founder of FROSMO, a company specialised in Single Tag based UI improvement methodology. Since 2008 Frosmo has grown to over 100 employees and works with customers like Decathlon, Mediamarkt, Finnair and Mondelez.
+                                      <br>
+
+                                      Mikael is also a co-founder and chairman of the board of Dodreams mobile game studio with hit-game Drive Ahead!. Before entrepreneurship Mikael worked at Fremantle Media, a part of Bertelsmann group.
+                                    </p>
                                 </div>
                               </div>
                             </div>
                               
                         </div>
-                      </div>
+
+                    </div>
                   </li>
                   <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="speaker-img" id="jaana"></div>
-                        <div class="speaker-info">
-                          <h4>Jaana Pylvänen</h4>
-                          <div class="speaker-info-advanced">
-                             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
-                              <div class="speaker-img" id="jaana"></div>
-                              <div class="">
+                    <div class="speaker-img" id="jaana"></div>
+                    <div class="speaker-info">
+                      <h4>Jaana Pylvänen</h4>
+                      <!-- For mobile -->
+                      <div class=" hidden-md hidden-lg">
+                          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
+                            <div class="">
+                              <div class="speaker-media-links">
+                                <ul>
+                                  <li>
+                                      <a href="https://fi.linkedin.com/in/jaana-pylvänen-95b30332" target="_blank">
+                                        <img src="img/linkedin.png">
+                                      </a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="speaker-par">
+                                <p>
+                                  Jaana is Innovation Director at Regus Kora in Finland, Nordics and Baltics, She is passionate about building enablers for ambitious companies to grow. Kora operates on university campus areas for bringing together technology, universities, corporates and startups. With partners like EBAN, they help their customer companies to grow and find more private funding for the future. She has a long career in Nokia Networks as a recognized innovation driver and execution focused and independent global project leader in all the continents. Jaana also has experience in running a design oriented business for five years as an entrepreneur. Her company had 10 employees, 80 sales persons and sales 0,9 MEUR (2009). Jaana holds M.Sc. in Economics from University of Turku. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <!-- For desktop-->
+                      <div class="speaker-info-advanced hidden-xs hidden-sm">
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
+                          <div class="speaker-img" id="jaana"></div>
                                 <h4>Jaana Pylvänen</h4>
                                 <div class="speaker-media-links">
                                   <ul>
@@ -302,28 +343,53 @@
                                         <img src="img/linkedin.png">
                                       </a>
                                     </li>
-                                    <li>
-                                      <a href="" target="_blank">
-                                        <img src="img/facebook.png">
-                                      </a>
-                                    </li>
                                   </ul>
                                 </div>
-                                <div class="xs-hidden sm-hidden">
+                                <div class="hidden-xs hidden-sm speaker-par">
                                   <p>
                                     Jaana is Innovation Director at Regus Kora in Finland, Nordics and Baltics, She is passionate about building enablers for ambitious companies to grow. Kora operates on university campus areas for bringing together technology, universities, corporates and startups. With partners like EBAN, they help their customer companies to grow and find more private funding for the future. She has a long career in Nokia Networks as a recognized innovation driver and execution focused and independent global project leader in all the continents. Jaana also has experience in running a design oriented business for five years as an entrepreneur. Her company had 10 employees, 80 sales persons and sales 0,9 MEUR (2009). Jaana holds M.Sc. in Economics from University of Turku. 
                                   </p>
                                 </div>
-                              </div>
-                            </div>
                           </div>
+                      </div>
+          
+                    </div>
                   </li>
                   <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                   
-                        <div class="speaker-img" id="marcia"></div>
-                        <div class="speaker-info">
-                          <h4>Marcia Villalba </h4>
-                          <div class="speaker-info-advanced">
+                    <div class="speaker-img" id="marcia"></div>
+                    <div class="speaker-info">
+                      <h4>Marcia Villalba </h4>
+
+                      <!-- For mobile -->
+                      <div class="hidden-md hidden-lg">
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
+                            <div class="">
+                              <div class="speaker-media-links">
+                                <ul>
+                                  <li>
+                                      <a href="https://fi.linkedin.com/in/marciavillalba" target="_blank">
+                                        <img src="img/linkedin.png">
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="http://marciavillalba.com/" target="_blank">
+                                        <img src="img/earth-globe.png">
+                                      </a>
+                                    </li>
+                                </ul>
+                              </div>
+                              <div class="speaker-par">
+                                <p>
+                                   Marcia has more than 10 years of experience in software industry and currently works as a Senior Server Developer at Rovio Entertainment. She is passionate about learning and helping others to learn. In her free time she is evangelist trying to convert people into coders. Marcia is also an author of a blog that tries to teach the very basics of computer science to people. She volunteers in multiple organisations in order to bring more women to IT.
+
+                                </p>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Desctop Info-->
+                        <div class="speaker-info-advanced hidden-xs hidden-sm">
                             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
                               <div class="speaker-img" id="marcia"></div>
                               <div class="">
@@ -336,13 +402,13 @@
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="" target="_blank">
-                                        <img src="img/facebook.png">
+                                      <a href="http://marciavillalba.com/" target="_blank">
+                                        <img src="img/earth-globe.png">
                                       </a>
                                     </li>
                                   </ul>
                                 </div>
-                                <div class="xs-hidden sm-hidden">
+                                <div class="hidden-xs hidden-sm speaker-par">
                                   <p>
                                    Marcia has more than 10 years of experience in software industry and currently works as a Senior Server Developer at Rovio Entertainment. She is passionate about learning and helping others to learn. In her free time she is evangelist trying to convert people into coders. Marcia is also an author of a blog that tries to teach the very basics of computer science to people. She volunteers in multiple organisations in order to bring more women to IT.
 
@@ -350,16 +416,44 @@
                                 </div>
                           </div>
                         </div>
-                        </div>
                       </div>
+
+                    </div>
                   </li>
 
                   <li class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                      
-                        <div class="speaker-img" id="chryssa"></div>
-                        <div class="speaker-info">
-                          <h4>Chryssa Shkodra </h4>
-                          <div class="speaker-info-advanced">
+                    <div class="speaker-img" id="chryssa"></div>
+                    <div class="speaker-info">
+                      <h4>Chryssa Shkodra </h4>
+                                            <!-- For mobile -->
+                      <div class="hidden-md hidden-lg">
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
+                            <div class="">
+                              <div class="speaker-media-links">
+                                <ul>
+                                  <li>
+                                    <a href="http://www.linkedin.com/in/chryssaskodra" target="_blank">
+                                      <img src="img/linkedin.png">
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="http://chryssaskodra.com/" target="_blank">
+                                      <img src="img/earth-globe.png">
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="speaker-par">
+                                <p>
+                                   Chryssa Skodra is the Greek Goddess of Content in Finland. She is an award-winning tech blogger, a PR entrepreneur, a journalist, an event organiser, a public speaker and an educator.  Born and raised in Greece, Chryssa came to Finland as an exchange student, fell in love with the country and started her career here from scratch. Chryssa started blogging in 2003 and has been a brand ambassador for many lifestyle brands and a digital influencer for Fujitsu since 2010. She holds a Bachelor of Science in Communication and Media, a Diploma in International Project Management and a Master of Music in Arts Management from the prestigious Sibelius Academy. She is the proud mother of baby boy Philippos.
+                                  </p> 
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <!-- Desktop -->
+                        <div class="speaker-info-advanced hidden-xs hidden-sm">
                             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
                               <div class="speaker-img" id="chryssa"></div>
                               <div class="">
@@ -372,32 +466,34 @@
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="" target="_blank">
+                                      <a href="http://chryssaskodra.com/" target="_blank">
                                         <img src="img/earth-globe.png">
                                       </a>
                                     </li>
                                   </ul>
                                 </div>
-                                <div class="xs-hidden sm-hidden">
+                                <div class="hidden-xs hidden-sm speaker-par">
                                   <p>
                                    Chryssa Skodra is the Greek Goddess of Content in Finland. She is an award-winning tech blogger, a PR entrepreneur, a journalist, an event organiser, a public speaker and an educator.  Born and raised in Greece, Chryssa came to Finland as an exchange student, fell in love with the country and started her career here from scratch. Chryssa started blogging in 2003 and has been a brand ambassador for many lifestyle brands and a digital influencer for Fujitsu since 2010. She holds a Bachelor of Science in Communication and Media, a Diploma in International Project Management and a Master of Music in Arts Management from the prestigious Sibelius Academy. She is the proud mother of baby boy Philippos.
                                   </p>
                                 </div>
                           </div>
                         </div>
-                        </div>
                       </div>
+
+
+                    </div>
                   </li>
                   <li class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <div class="speaker-img" id="juhani"></div>
-                        <div class="speaker-info">
-                          <h4>Juhani Mykkänen</h4>
-                          <div class="speaker-info-advanced">
-                            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
-                              <div class="speaker-img" id="juhani"></div>
+                    <div class="speaker-img" id="juhani"></div>
+                      <div class="speaker-info">
+                        <h4>Juhani Mykkänen</h4>
+
+                             <!-- For mobile -->
+                        <div class="hidden-md hidden-lg">
+                          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
                               <div class="">
-                                <h4>Juhani Mykkänen</h4>
-                                  <div class="speaker-media-links">
+                                <div class="speaker-media-links">
                                   <ul>
                                     <li>
                                       <a href="" target="_blank">
@@ -405,13 +501,13 @@
                                       </a>
                                     </li>
                                     <li>
-                                      <a href="" target="_blank">
+                                      <a href="http://juhanimykkanen.com/" target="_blank">
                                         <img src="img/earth-globe.png" >
                                       </a>
                                     </li>
                                   </ul>
                                 </div>
-                                <div class="xs-hidden sm-hidden">
+                                <div class="speaker-par">
                                   <p>
                                     Wolt co-founder and Code2016 author Juhani Mykkänen speaks about programming in the most simple, yet meaningful terms you've heard. If you want to watch someone really build the case for why coding is the most important skill of the century, seek no further.
                                   </p>
@@ -419,7 +515,32 @@
                               </div>
                           </div>
                         </div>
-                      </div>
+
+                        <!-- Desktop version -->
+                        <div class="speaker-info-advanced hidden-xs hidden-sm">
+                            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
+                              <div class="speaker-img" id="juhani"></div>
+                              <div class="">
+                                <h4>Juhani Mykkänen</h4>
+                                  <div class="speaker-media-links">
+                                  <ul>
+                                    <li>
+                                      <a href="http://juhanimykkanen.com/" target="_blank">
+                                        <img src="img/earth-globe.png" >
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class=" speaker-par">
+                                  <p>
+                                    Wolt co-founder and Code2016 author Juhani Mykkänen speaks about programming in the most simple, yet meaningful terms you've heard. If you want to watch someone really build the case for why coding is the most important skill of the century, seek no further.
+                                  </p>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -513,10 +634,10 @@
                         <p>
                           <b><a href="http://frosmo.com/" target="_blank">FROSMO</a> is the forerunner in the Single Tag based UI improvement methodology.</b>
                           <br/>
-                          Thanks to the Frosmo platform, online business owners can achieve unprecedented freedom, speed and cost-efficiency in developing unique experiences for their online customers. Our customers are large online businesses who want to create winning User Experiences online, and who don’t want to be limited by a small set of predefined features.
+                          Thanks to the Frosmo platform, online business owners can achieve unprecedented freedom, speed and cost-efficiency in developing unique experiences for their online customers. 
                           <br/>
 
-                          Living up to the Best Exponential Startup title, Frosmo is growing fast and actively seeking talented people to join our international team. Frosmo’s Single Tag UI Development method opens up incredible opportunities to have an impact on the future of the internet. Check out our open vacancies on
+                          Living up to the Best Exponential Startup title, Frosmo is growing fast and actively seeking talented people to join our international team. Frosmo’s Single Tag UI Improvement method opens up incredible opportunities to have an impact on the future of the internet. <br/>Check out our open vacancies on:
                           <a href="http://frosmo.com/en/careers">http://frosmo.com/en/careers</a>
 
                         </p>
@@ -547,8 +668,8 @@
         <div class="col-sm-8 col-sm-offset-2 col-xs-12">
               <h2 class="section-title-middle">Before applying</h2>
               <p class="text">
-                Due to a limited amout of seats during the workshop, we kindly ask all applicants to fulfil the tasks below before applying. 
-                These tests help verifying that your starting level of HTML&CSS (JavaScript - only basic things) is enough to enjoy our workshop to the fullest. 
+                Due to a limited amout of seats during the workshop, we kindly ask all applicants to fulfill the tasks below before applying. 
+                These tests help verifying that your starting level of HTML&CSS (JavaScript - only basic things) is enough to enjoy our workshop to the fullest. You only need to complete 2 of them, the ones that seem to be more interesting for you.
                 To submit your tasks, please create an account on codepen.io and create code snippets ('pens') with your code. Then save them and attach links to your application in the appropriate field. Good luck!
               </p>
               <div class="row tasks">
@@ -578,7 +699,7 @@
                 </div>  
               </div>  
               <div class="form-link">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_rgnwQ9dE-HUgZrhSojdNkOHyBevrCNotbR3KOhbU3NvTLA/viewform?embedded=true" target="_blank">I’ve done the tasks and want to apply now!</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_rgnwQ9dE-HUgZrhSojdNkOHyBevrCNotbR3KOhbU3NvTLA/viewform?embedded=true" target="_blank">I’ve done the tasks and want to apply!</a>
               </div>
         </div>
       </div>
@@ -586,9 +707,13 @@
       
       <footer class="row footer">
         <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-lg-2">
-          <img src="img/frosmo-logo.png" class="frosmo-logo-footer">
+          <img src="img/FROSMO.png" class="frosmo-logo-footer">
           <div class="info-in-footer">
-            <p>Text about copyright.</p>
+            <p><a href="http://frosmo.com">FROSMO</a> LTD (European Head Office) 
+            <br>
+            Kaivokatu 8 B, 00100 Helsinki, FINLAND 
+            </p>
+
             <ul>
               <li><a href="https://twitter.com/Frosmo" target="_blank">Twitter</a></li>
               <li><a href="https://fi-fi.facebook.com/frosmoltd/" target="_blank">Facebook</a></li>
@@ -638,6 +763,7 @@
       //Hide the menus if visible
         $(".speaker-info-advanced").css("display", "none");
       });
+
       $(".speaker-img").click(function(event){
         $(".speaker-info-advanced").css("display", "none");
         event.stopPropagation();
@@ -646,6 +772,9 @@
         $(el).css("display", "block").addClass("row");
         $(el).click(function(event){
             event.stopPropagation();
+        });
+        $(".speaker-info-advanced").click(function(){
+           $(".speaker-info-advanced").css("display", "none");
         });
 
       });

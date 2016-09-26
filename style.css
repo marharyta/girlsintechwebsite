@@ -25,6 +25,10 @@ p{
   margin-top: 70px;
   color: rgba(194,29,136,0.61);
   background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  /*rgba(162,28,72,0.61)*/
+  /*
+  background:-webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -36,6 +40,9 @@ p{
   margin-top: 70px;
   color: rgba(117,24,240,0.61);
   background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  /*
+  background:-webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -46,7 +53,10 @@ p{
   margin-top: 30px;
   color: rgba(117,24,240,0.61);
   background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
-  -webkit-background-clip: text;
+/*
+  background:-webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  */
+    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -100,8 +110,10 @@ p{
   font-size: 1.6em;
   color: rgba(117,24,240,0.61);
   background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
-
-  -webkit-background-clip: text;
+/*
+  background:-webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  */
+    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -140,8 +152,8 @@ p{
 /* hero image css*/
 
 .hero{
-  height: 800px;
-  height: 100vh;
+  height: 900px;
+  height: 110vh;
   background-color: black;  
   background-image: url("http://www.nordicstartupbits.com/wp-content/uploads/2016/02/girls-in-tech.jpg");
   background-size: cover;
@@ -161,7 +173,17 @@ p{
   background: -ms-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
   background: linear-gradient(to right, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c21d88', endColorstr='#ff7700', GradientType=1 );
-
+  /*new pink*/
+  /*background:-webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: rgba(194,29,136,0.61);
+  background: -moz-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(194,29,136,0.61)), color-stop(52%, rgba(117,24,240,0.61)), color-stop(54%, rgba(153,52,247,0.61)), color-stop(70%, rgba(224,99,83,0.61)), color-stop(100%, rgba(255,119,0,0.61)));
+  background: -webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -o-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -ms-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: linear-gradient(to right, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c21d88', endColorstr='#ff7700', GradientType=1 );
+*/
 }
 
 .pink-blur{
@@ -169,7 +191,7 @@ p{
   background-color: rgba(136, 120, 140, 0.64);
   width: 100%;
   height: 700%;
-  padding-top: 80px;
+  padding-top: 70px;
   padding-bottom: 80px;
   
 
@@ -201,6 +223,12 @@ p{
   text-align: center;
   vertical-align: top;
   font-size: 1em;
+}
+
+.fa {
+    
+    font-size: 2em;
+    
 }
 
 .hero .info span b{
@@ -568,7 +596,10 @@ p{
   margin-bottom: 80px;
   margin-top: 80px;
   background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
-  -webkit-background-clip: text;
+/*
+  background:-webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  */
+    -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.2em;
   
@@ -586,6 +617,7 @@ p{
 footer{
   min-height: 300px;
   background:-webkit-linear-gradient(left, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background:-webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
   color: white;
   padding-bottom: 60px;
   background: rgba(194,29,136,0.61);
@@ -597,6 +629,18 @@ footer{
   background: linear-gradient(to right, rgba(194,29,136,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c21d88', endColorstr='#ff7700', GradientType=1 );
 
+/*new pink*/
+/*
+  background:-webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: rgba(194,29,136,0.61);
+  background: -moz-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(194,29,136,0.61)), color-stop(52%, rgba(117,24,240,0.61)), color-stop(54%, rgba(153,52,247,0.61)), color-stop(70%, rgba(224,99,83,0.61)), color-stop(100%, rgba(255,119,0,0.61)));
+  background: -webkit-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -o-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: -ms-linear-gradient(left, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  background: linear-gradient(to right, rgba(162,28,72,0.61) 0%, rgba(117,24,240,0.61) 52%, rgba(153,52,247,0.61) 54%, rgba(224,99,83,0.61) 70%, rgba(255,119,0,0.61) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c21d88', endColorstr='#ff7700', GradientType=1 );
+*/
 }
 
 .frosmo-logo-footer{

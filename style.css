@@ -14,11 +14,19 @@ p{
   line-height: 150% !important;
 }
 
+.extended{
+  color: white;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 2em;
+}
+
 /* share buttons*/
 
 .mobile-share-buttons{
   margin: 0px auto;
-
 }
 
 .mobile-share-buttons li{
@@ -121,7 +129,7 @@ ul.share-buttons .sr-only {
   display: block;
   background-color: white;
   position: absolute;
-  top: 90vh;
+  top: 95vh;
   left: 65%;
   width: 300px;
   min-height: 800px;
@@ -264,7 +272,7 @@ ul.share-buttons .sr-only {
 
 .fa {
     
-    font-size: 2em;
+    font-size: 2em !important;
     
 }
 
@@ -870,12 +878,18 @@ footer a{
           width: 25%;
           margin: 0px auto;
       }
+      /* agenda css*/
+      .absolutely{
+        
+        top: 100vh;
+        
+      }
 
 
     }
 
     /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
+    @media only screen and (min-width : 992px) and (max-width: 1199px) {
         .speaker-info-advanced{
           display: none;
           position: fixed;
@@ -891,6 +905,14 @@ footer a{
           width: 20%;
           margin: 0px auto;
       }
+
+      /* agenda css*/
+      .absolutely{
+        
+        top: 100vh;
+        
+      }
+
 
     }
 
@@ -910,6 +932,13 @@ footer a{
           display: block;
           width: 10%;
           margin: 0px auto;
+      }
+
+      /* agenda css*/
+      .absolutely{
+        
+        top: 95vh;
+        
       }
 
     }

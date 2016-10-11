@@ -129,7 +129,7 @@ ul.share-buttons .sr-only {
   display: block;
   background-color: white;
   position: absolute;
-  top: 95vh;
+  top: 110vh;
   left: 65%;
   width: 300px;
   min-height: 800px;
@@ -198,7 +198,7 @@ ul.share-buttons .sr-only {
 
 .hero{
   height: 900px;
-  height: 110vh;
+  height: 122vh;
   background-color: black;  
   background-image: url("http://www.nordicstartupbits.com/wp-content/uploads/2016/02/girls-in-tech.jpg");
   background-size: cover;
@@ -937,7 +937,7 @@ footer a{
       /* agenda css*/
       .absolutely{
         
-        top: 95vh;
+        top: 100vh;
         
       }
 

@@ -1,9 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Bungee+Inline';
-@import 'https://fonts.googleapis.com/css?family=Roboto';
 @import 'https://fonts.googleapis.com/css?family=Lato';
-@import 'https://fonts.googleapis.com/css?family=Inconsolata';
-@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
-@import 'https://fonts.googleapis.com/css?family=Press+Start+2P';
 
 *{
   font-family: 'Lato', sans-serif;
@@ -20,7 +16,7 @@ p{
   width: 80%;
   margin: 10px auto;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 /* share buttons*/
@@ -129,7 +125,7 @@ ul.share-buttons .sr-only {
   display: block;
   background-color: white;
   position: absolute;
-  top: 110vh;
+  top: 90vh;
   left: 65%;
   width: 300px;
   min-height: 800px;
@@ -149,7 +145,7 @@ ul.share-buttons .sr-only {
 }
 
 .agenda li span{
-  font-family: 'Playfair Display', serif;
+  
   font-family: 'Bungee Inline', cursive;
   text-transform: uppercase;
   font-size: 1.6em;
@@ -198,7 +194,7 @@ ul.share-buttons .sr-only {
 
 .hero{
   height: 900px;
-  height: 122vh;
+  height: 100vh;
   background-color: black;  
   background-image: url("http://www.nordicstartupbits.com/wp-content/uploads/2016/02/girls-in-tech.jpg");
   background-size: cover;
@@ -739,6 +735,7 @@ footer a{
       .move-down{
         top: 2vh;
       }
+      
       .hero h1{
         font-size: 2em; 
       }
@@ -772,12 +769,6 @@ footer a{
         padding: 5px;
       }
 
-
-      .frosmo{
-       
-
-      }
-
       .section-title-left{
         text-align: center;
       }
@@ -787,9 +778,6 @@ footer a{
         position: fixed;
         top: 10%;
         left: 0;
-        
-       
-
       }
 
       .speaker-media-links {
@@ -807,7 +795,7 @@ footer a{
     /* Custom, iPhone Retina */ 
     @media only screen and (min-width : 320px) and (max-width : 479px) and (orientation: landscape){
       .hero{
-        height: 150vh;
+        height: 120vh;
       }
 
       .section-title-left{
@@ -855,7 +843,7 @@ footer a{
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) and (max-width : 767px) and (orientation: landscape){
       .hero{
-        height: 150vh;
+        height: 120vh;
       }
        
     }
@@ -878,13 +866,6 @@ footer a{
           width: 25%;
           margin: 0px auto;
       }
-      /* agenda css*/
-      .absolutely{
-        
-        top: 100vh;
-        
-      }
-
 
     }
 
@@ -905,15 +886,6 @@ footer a{
           width: 20%;
           margin: 0px auto;
       }
-
-      /* agenda css*/
-      .absolutely{
-        
-        top: 100vh;
-        
-      }
-
-
     }
 
     /* Large Devices, Wide Screens */
@@ -934,44 +906,5 @@ footer a{
           margin: 0px auto;
       }
 
-      /* agenda css*/
-      .absolutely{
-        
-        top: 100vh;
-        
-      }
 
     }
-
-
-
-    /*==========  Non-Mobile First Method  ==========*/
-
-    /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
-
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
-
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
-
-    }
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
-
-    }
-
-    /* Custom, iPhone Retina */ 
-    @media only screen and (max-width : 320px) {
-        
-    }
-
-
-
-

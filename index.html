@@ -43,20 +43,6 @@
     <script type="text/javascript">
       new WOW().init();
     </script>
-
-    <!-- Google Analytics -->
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-84482049-1', 'auto');
-    ga('send', 'pageview');
-
-    </script>
-    <style>
-    </style>
   </head>
   <body>
     <div class="fixed-share-icons hidden-sm hidden-xs">
@@ -72,9 +58,10 @@
             }(document, 'script', 'facebook-jssdk'));
           </script>
 
-          <a data-href="http://girlsintechhelsinkigoesfrosmo.com/" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgirlsintechhelsinkigoesfrosmo.com%2F&amp;src=sdkpreparse">
-            <img alt="Share on Facebook" src="img/share_icons/Facebook.png">
-          </a>
+          <a data-href="http://girlsintechhelsinkigoesfrosmo.com/" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+            <a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fgirlsintechhelsinkigoesfrosmo.com%2F&amp;src=sdkpreparse">
+              <img alt="Share on Facebook" src="img/share_icons/Facebook.png">
+            </a>
         </li>
         <li>
           <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fgirlsintechhelsinkigoesfrosmo.com%2F&text=:%20http%3A%2F%2Fgirlsintechhelsinkigoesfrosmo.com%2F" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;">
@@ -92,79 +79,73 @@
     <div class="container-fluid">
       <!-- hero -->
       <div class="row hero">
-        <div class="pink-blur gradient">
-          
-          <div class=" ">
-            <div class="col-lg-8 col-lg-offset-2 col-md-8-col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 move-down">
-              
-              <h1> GirlsinTech Helsinki goes Frosmo: <br/>  the Coding Day </h1>
-              
-              <div class="row info">
-                <span class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
-                  <i class="fa fa-calendar" aria-hidden="true"></i>
-                  <b>October 29, 2016</b>
-                </span>
-                <span class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <b> Frosmo Helsinki Office, Kaivokatu 6, 00100 Helsinki</b>
-                </span>
-                <span class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
-                  <i class="fa fa-ticket" aria-hidden="true"></i>
-                  <b>FREE</b>
-                </span>
-              </div>
-              <div class="col-xs-12">
-                 <button>Registration closed</button>
-              </div>
-              
-             
-              
+        <div class="pink">
+          <div class="container-blur gradient">
+            <div class="col-lg-8 col-lg-offset-2 col-md-8-col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+                <h1> GirlsinTech Helsinki goes Frosmo: <br/>  the Coding Day </h1>
+                <div class="row info">
+                  <span class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <b>October 29, 2016</b>
+                  </span>
+                  <span class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <b> Frosmo Helsinki Office, Kaivokatu 6, 00100 Helsinki</b>
+                  </span>
+                  <span class="col-lg-4 col-md-4 col-sm-10 col-xs-12">
+                    <i class="fa fa-ticket" aria-hidden="true"></i>
+                    <b>FREE</b>
+                  </span>
+                </div>
+                <div class="row">
+                   <button class="closed">Registration closed</button>
+                </div>
             </div>
           </div>
         </div>
       </div>
 
       <!-- map -->
-      <div class="row ">
+      <div class="row">
         <div class="col-xs-12 col-xs-offset-0">
-              <div class="row">
-                <div id="map"></div> 
-                  <script>
-                  var office = {
-                      lat: 60.1698665,
-                      lng: 24.94189
-                    };
-                   var styleArray = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}];
-                    var mapOptions = {
-                        center: office,
-                        zoom: 14,
-                        styles: styleArray,
-                        scrollwheel: false
-                    };
-                    var contentString = '<div id="content-map">'+
-                                        '<div class="event-time"><p>29.10.2016 at 10:30am</p></div>'+
-                                        '<h1 id="firstHeading" class="firstHeading">FROSMO Office</h1>'+
-                                        '<small> <a href="https://www.google.fi/maps/place/Frosmo+Ltd./@60.1700438,24.9388779,17z/data=!3m1!4b1!4m5!3m4!1s0x46920bc943362fbf:0xfdb061e18f21c1d5!8m2!3d60.1700438!4d24.9410666?hl=en" target="_blank"> FROSMO Helsinki Office, Kaivokatu 6, Helsinki </a></small>'+
-                                        '</div>';
+          <div class="row">
+            <div id="map"></div> 
+              <script>
+                var office = {
+                  lat: 60.1698665,
+                  lng: 24.94189
+                };
+                var styleArray = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}];
+                var mapOptions = {
+                    center: office,
+                    zoom: 14,
+                    styles: styleArray,
+                    scrollwheel: false
+                };
+                var contentString = '<div id="content-map">'+
+                                    '<div class="event-time"><p>29.10.2016 at 10:30am</p></div>'+
+                                    '<h1 id="firstHeading" class="firstHeading">FROSMO Office</h1>'+
+                                    '<small> <a href="https://www.google.fi/maps/place/Frosmo+Ltd./@60.1700438,24.9388779,17z/data=!3m1!4b1!4m5!3m4!1s0x46920bc943362fbf:0xfdb061e18f21c1d5!8m2!3d60.1700438!4d24.9410666?hl=en" target="_blank"> FROSMO Helsinki Office, Kaivokatu 6, Helsinki </a></small>'+
+                                    '</div>';
 
-                    var map;
-                    function initMap() {
-                      map = new google.maps.Map(document.getElementById('map'), mapOptions);
-                      var marker = new google.maps.Marker({
-                        position: office,
-                        map: map,
-                        title: 'Hello World!'
-                      });
-                      var infowindow = new google.maps.InfoWindow({
-                        content:contentString,
-                        maxWidth: 200
-                        });
+                var map;
+                function initMap() {
+                  map = new google.maps.Map(document.getElementById('map'), mapOptions);
+                  var marker = new google.maps.Marker({
+                    position: office,
+                    map: map,
+                    title: 'Hello World!'
+                  });
+                  var infowindow = new google.maps.InfoWindow({
+                    content:contentString,
+                    maxWidth: 200
+                    });
 
-                      infowindow.open(map,marker);
-                    } 
-                </script>
-                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6MDPy0zVKEK3Hu_FLnhjRSc-IkQ4Lem4&callback=initMap" async defer></script>
-              </div>
+                  infowindow.open(map,marker);
+                } 
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1W493KsqGwlo4RC-HUtltenaLcSNpx3o&callback=initMap" async defer></script>
+          </div>
         </div>
       </div>
 
@@ -193,60 +174,46 @@
       <!-- About the event -->
       <div class="row event">
         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-              <h2 class="section-title-left">About The Event</h2>
-              <div class="row about wow bounceInUp">
-                <!--<p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                  <b><a href="http://helsinki.girlsintech.org/" target="_blank">Girls in Tech Helsinki</a> goes FROSMO:  The Coding Day</b> is a practical workshop on the topics of web coding & tools on <b>October 29, 2016</b>.
-                  <br>
-                  <br>
-                  This <b>1-day</b> Workshop offers attendees the chance to finesse existing skills while mingling with peers, forming new relationships and networking with professionals from the region.
-                  <br>
-                  <br>
-                  <b>GIT Helsinki goes Frosmo: The Coding Day</b> is open for anyone interested in developing and improving their coding skills.  This 6 hours workshop has been designed for upper beginners with already some basic knowledge in HTML/CSS/JavaScript languages and will be conducted with the assistance of  coding coaches from Frosmo.
-                  <br>
-                  <br>
-                  The event is <b>free of charge</b> and open for both women and men.
-                  <br>
-                  <br>
-                  The event has capacity for <b>20 people</b> and the application period <b>deadline is October 9, 2016 at 23:59</b>. All the applicants will be notified of the results on October 17, 2016 via e-mail. Please bring your own computer for this session.
+          <h2 class="section-title-left">About The Event</h2>
+          <div class="row about wow bounceInUp">
+            <p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+              <b><a href="http://helsinki.girlsintech.org/" target="_blank">Girls in Tech Helsinki</a> goes FROSMO:  The Coding Day</b> is a practical workshop on the topics of web development and tools on <b>October 29, 2016</b> in co-operation with FROSMO, the forerunner of the Single Tag based UI improvement methodology.
+              <br>
+              <br>
+              This <b>1-day Workshop</b> offers attendees the chance to finesse existing skills while mingling with peers, forming new relationships and networking with international professionals. 
+              <br>
+              <br>
 
-                </p>-->
-                <p class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                  <b><a href="http://helsinki.girlsintech.org/" target="_blank">Girls in Tech Helsinki</a> goes FROSMO:  The Coding Day</b> is a practical workshop on the topics of web development and tools on <b>October 29, 2016</b> in co-operation with FROSMO, the forerunner of the Single Tag based UI improvement methodology.
-                  <br>
-                  <br>
-                  This <b>1-day Workshop</b> offers attendees the chance to finesse existing skills while mingling with peers, forming new relationships and networking with international professionals. 
-                  <br>
-                  <br>
+              <b>GIT Helsinki goes FROSMO: The Coding Day</b> is open for anyone interested in developing and improving their coding skills. This 6-hour workshop has been designed for beginners  with basic knowledge in HTML/CSS/JavaScript languages and will receive assistance from the coding specialists of FROSMO. 
+              <br>
+              <br>
+              <b>
+                The event is completely <b>free</b> and open for both women and men.
+              </b>
+              <br>
+              <br>
+              The event has capacity for <b>20 people</b>. The <b>deadline for the application is on October 15, 2016 at 23:59</b>. All the applicants will be notified of the results on October 17, 2016 via e-mail. Please bring your own laptop for this session.
+            </p>
 
-                  <b>GIT Helsinki goes FROSMO: The Coding Day</b> is open for anyone interested in developing and improving their coding skills. This 6-hour workshop has been designed for beginners  with basic knowledge in HTML/CSS/JavaScript languages and will receive assistance from the coding specialists of FROSMO. 
-                  <br>
-                  <br>
-                  <b>
-                    The event is completely <b>free</b> and open for both women and men.
-                  </b>
-                  <br>
-                  <br>
-                  The event has capacity for <b>20 people</b>. The <b>deadline for the application is on October 15, 2016 at 23:59</b>. All the applicants will be notified of the results on October 17, 2016 via e-mail. Please bring your own laptop for this session.
-
-
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+              <div class="quote">
+                <q>
+                  It has been very intensive, challenging, but at the same time inspiring couple of days. Interaction with those amazing, smart and intelligent ladies made hard work seem very fun and joyful. During that weekend, I tried constantly to push myself out of my comfort zone. I wanted to learn to do things and think differently, in the end of the day I couldn’t get enough of the knowledge.
+                </q>
+                <br>
+                <br>
+                <p>
+                  - Ilona Shagimardanova, participant of GirlsInTech bootcamp in January. 
+                  <small>
+                    <a href="https://medium.com/@GITHelsinki/helsinki-becomes-the-first-city-to-hold-the-girls-in-tech-skills-bootcamp-in-the-nordics-5e8a0b963230#.5ysx1sc31" target="_blank">(source)</a>
+                  </small>
                 </p>
-
-                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                  <div class="quote">
-                    <q>
-                      It has been very intensive, challenging, but at the same time inspiring couple of days. Interaction with those amazing, smart and intelligent ladies made hard work seem very fun and joyful. During that weekend, I tried constantly to push myself out of my comfort zone. I wanted to learn to do things and think differently, in the end of the day I couldn’t get enough of the knowledge.
-                    </q>
-                    <br>
-                    <br>
-                    <p>- Ilona Shagimardanova, participant of GirlsInTech bootcamp in January. <small><a href="https://medium.com/@GITHelsinki/helsinki-becomes-the-first-city-to-hold-the-girls-in-tech-skills-bootcamp-in-the-nordics-5e8a0b963230#.5ysx1sc31" target="_blank">(source)</a></small></p>
-                  </div>
-                </div>
               </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- -->
       <div class="row">
         <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 hidden-lg hidden-md">
           <div class="mobile-share-buttons">
@@ -310,66 +277,63 @@
       <!-- Speakers -->
       <div class="row speakers">
         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-              <h2 class="section-title-middle">Speakers</h2>
-              <div class="row ">
-                <ul class="col-xs-12 wow bounceInUp">
-                  <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="speaker-img" id="mikael"></div>
-                        <div class="speaker-info">
-                          <h4 class="name">Mikael Gummerus</h4>
+          <h2 class="section-title-middle">Speakers</h2>
+            <div class="row ">
+              <ul class="col-xs-12 wow bounceInUp">
+                <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                  <div class="speaker-img" id="mikael"></div>
+                    <div class="speaker-info">
+                      <h4 class="name">Mikael Gummerus</h4>
                           <!-- For mobile -->
-                          <div class=" hidden-md hidden-lg">
-                              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
-                                <div class="">
-                                  <div class="speaker-media-links">
-                                    <ul>
-                                      <li>
-                                        <a href="https://fi.linkedin.com/in/mgummerus" target="_blank">
-                                          <img src="img/linkedin.png">
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                  <div class="speaker-par">
-                                    <p>
-                                      Mikael Gummerus is a CEO and founder of FROSMO, a company specialised in Single Tag based UI improvement methodology. Since 2008 Frosmo has grown to over 100 employees and works with customers like Decathlon, Mediamarkt, Finnair and Mondelez.
-                                      <br>
-
-                                      Mikael is also a co-founder and chairman of the board of Dodreams mobile game studio with hit-game Drive Ahead!. Before entrepreneurship Mikael worked at Fremantle Media, a part of Bertelsmann group.
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                                
-                          </div>
-                          <!--For desktop -->
-                          <div class="speaker-info-advanced hidden-xs hidden-sm">
-                            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
-                              <div class="speaker-img" id="mikael"></div>
-                              <div class="">
-                                <h4>Mikael Gummerus</h4>
-                                <div class="speaker-media-links">
-                                  <ul>
-                                    <li>
-                                      <a href="https://fi.linkedin.com/in/mgummerus" target="_blank">
-                                        <img src="img/linkedin.png">
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div class="hidden-xs hidden-sm speaker-par">
-                                  <p>
-                                      Mikael Gummerus is a CEO and founder of FROSMO, a company specialised in Single Tag based UI improvement methodology. Since 2008 Frosmo has grown to over 100 employees and works with customers like Decathlon, Mediamarkt, Finnair and Mondelez.
-                                      <br>
-
-                                      Mikael is also a co-founder and chairman of the board of Dodreams mobile game studio with hit-game Drive Ahead!. Before entrepreneurship Mikael worked at Fremantle Media, a part of Bertelsmann group.
-                                    </p>
-                                </div>
-                              </div>
+                      <div class=" hidden-md hidden-lg">
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
+                          <div class="">
+                            <div class="speaker-media-links">
+                              <ul>
+                                <li>
+                                  <a href="https://fi.linkedin.com/in/mgummerus" target="_blank">
+                                    <img src="img/linkedin.png">
+                                  </a>
+                                </li>
+                              </ul>
                             </div>
-                              
-                        </div>
+                            <div class="speaker-par">
+                              <p>
+                                Mikael Gummerus is a CEO and founder of FROSMO, a company specialised in Single Tag based UI improvement methodology. Since 2008 Frosmo has grown to over 100 employees and works with customers like Decathlon, Mediamarkt, Finnair and Mondelez.
+                                <br>
 
+                                Mikael is also a co-founder and chairman of the board of Dodreams mobile game studio with hit-game Drive Ahead!. Before entrepreneurship Mikael worked at Fremantle Media, a part of Bertelsmann group.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!--For desktop -->
+                      <div class="speaker-info-advanced hidden-xs hidden-sm">
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
+                          <div class="speaker-img" id="mikael"></div>
+                          <div class="">
+                            <h4>Mikael Gummerus</h4>
+                            <div class="speaker-media-links">
+                              <ul>
+                                <li>
+                                  <a href="https://fi.linkedin.com/in/mgummerus" target="_blank">
+                                    <img src="img/linkedin.png">
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="hidden-xs hidden-sm speaker-par">
+                              <p>
+                                  Mikael Gummerus is a CEO and founder of FROSMO, a company specialised in Single Tag based UI improvement methodology. Since 2008 Frosmo has grown to over 100 employees and works with customers like Decathlon, Mediamarkt, Finnair and Mondelez.
+                                  <br>
+
+                                  Mikael is also a co-founder and chairman of the board of Dodreams mobile game studio with hit-game Drive Ahead!. Before entrepreneurship Mikael worked at Fremantle Media, a part of Bertelsmann group.
+                                </p>
+                            </div>
+                          </div>
+                        </div>      
+                      </div>
                     </div>
                   </li>
                   <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -378,47 +342,46 @@
                       <h4>Jaana Pylvänen</h4>
                       <!-- For mobile -->
                       <div class=" hidden-md hidden-lg">
-                          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
-                            <div class="">
-                              <div class="speaker-media-links">
-                                <ul>
-                                  <li>
-                                      <a href="https://fi.linkedin.com/in/jaana-pylvänen-95b30332" target="_blank">
-                                        <img src="img/linkedin.png">
-                                      </a>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="speaker-par">
-                                <p>
-                                  Jaana worked as an Innovation Director at Regus Kora in Finland, Nordics and Baltics. She is passionate about building enablers for ambitious companies to grow. She has a long career in Nokia Networks as a recognized innovation driver and execution focused and independent global project leader in all the continents. Jaana also has experience in running a design oriented business for five years as an entrepreneur. Her company had 10 employees, 80 sales persons and sales 0,9 MEUR (2009). Jaana holds M.Sc. in Economics from University of Turku. 
-                                </p>
-                              </div>
+                        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
+                          <div class="">
+                            <div class="speaker-media-links">
+                              <ul>
+                                <li>
+                                    <a href="https://fi.linkedin.com/in/jaana-pylvänen-95b30332" target="_blank">
+                                      <img src="img/linkedin.png">
+                                    </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="speaker-par">
+                              <p>
+                                Jaana worked as an Innovation Director at Regus Kora in Finland, Nordics and Baltics. She is passionate about building enablers for ambitious companies to grow. She has a long career in Nokia Networks as a recognized innovation driver and execution focused and independent global project leader in all the continents. Jaana also has experience in running a design oriented business for five years as an entrepreneur. Her company had 10 employees, 80 sales persons and sales 0,9 MEUR (2009). Jaana holds M.Sc. in Economics from University of Turku. 
+                              </p>
                             </div>
                           </div>
+                        </div>
                       </div>
                       <!-- For desktop-->
                       <div class="speaker-info-advanced hidden-xs hidden-sm">
                         <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 box">
                           <div class="speaker-img" id="jaana"></div>
-                                <h4>Jaana Pylvänen</h4>
-                                <div class="speaker-media-links">
-                                  <ul>
-                                    <li>
-                                      <a href="https://fi.linkedin.com/in/jaana-pylvänen-95b30332" target="_blank">
-                                        <img src="img/linkedin.png">
-                                      </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div class="hidden-xs hidden-sm speaker-par">
-                                  <p>
-                                   Jaana worked as an Innovation Director at Regus Kora in Finland, Nordics and Baltics. She is passionate about building enablers for ambitious companies to grow. She has a long career in Nokia Networks as a recognized innovation driver and execution focused and independent global project leader in all the continents. Jaana also has experience in running a design oriented business for five years as an entrepreneur. Her company had 10 employees, 80 sales persons and sales 0,9 MEUR (2009). Jaana holds M.Sc. in Economics from University of Turku. 
-                                  </p>
-                                </div>
+                            <h4>Jaana Pylvänen</h4>
+                            <div class="speaker-media-links">
+                              <ul>
+                                <li>
+                                  <a href="https://fi.linkedin.com/in/jaana-pylvänen-95b30332" target="_blank">
+                                    <img src="img/linkedin.png">
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="hidden-xs hidden-sm speaker-par">
+                              <p>
+                               Jaana worked as an Innovation Director at Regus Kora in Finland, Nordics and Baltics. She is passionate about building enablers for ambitious companies to grow. She has a long career in Nokia Networks as a recognized innovation driver and execution focused and independent global project leader in all the continents. Jaana also has experience in running a design oriented business for five years as an entrepreneur. Her company had 10 employees, 80 sales persons and sales 0,9 MEUR (2009). Jaana holds M.Sc. in Economics from University of Turku. 
+                              </p>
+                            </div>
                           </div>
                       </div>
-          
                     </div>
                   </li>
                   <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -613,117 +576,59 @@
         </div>
       </div>
 
-      <!-- Coaches -->
-      <div class="row">
-
-        
-      </div>
       <!-- About Organizers -->
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2 col-xs-12">
-              <h2 class="section-title-middle-orange">
-              Hosted By
-              </h2>
-              <div class="row wow bounceInUp">
-                <div class="frosmo col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="col-xs-12 blur">
-                    <a href="http://frosmo.com/" target="_blank">
-                      <img src="img/frosmo-logo.png" class="frosmo-logo">
-                    </a>
-                    
-                  </div>
-                  <div class="col-xs-12">
-                    <div >
-                        <p>
-                          <b><a href="http://frosmo.com/" target="_blank">FROSMO</a> is the forerunner in the Single Tag based UI improvement methodology.</b>
-                          <br/>
-                          Thanks to the Frosmo platform, online business owners can achieve unprecedented freedom, speed and cost-efficiency in developing unique experiences for their online customers. 
-                          <br/>
-
-                          Living up to the Best Exponential Startup title, Frosmo is growing fast and actively seeking talented people to join our international team. Frosmo’s Single Tag UI Improvement method opens up incredible opportunities to have an impact on the future of the internet. <br/>Check out our open vacancies on:
-                          <a href="http://frosmo.com/en/careers">http://frosmo.com/en/careers</a>
-
-                        </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="git col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                  <div class="col-xs-12">
-                    <a href="girlsintechhelsinki.weebly.com" target="_blank">
-                      <img src="img/gitlogo2.png" class="git-logo">
-                    </a>
-                    
-                  </div>
-                  <div class="col-xs-12">
-                    <p>
-                      <a href="http://www.girlsintechhelsinki.weebly.com" target="_blank">Girls in Tech (GIT)</a> is a global non-profit focused on the engagement, education and empowerment of girls and women who are passionate about technology. Girls in Tech Helsinki started its operations in May 2015 and is the first GIT chapter in the Nordics.
-                    </p>
-                  </div>
-                </div>
-                
+          <h2 class="section-title-middle-orange">
+          Hosted By
+          </h2>
+          <div class="row wow bounceInUp">
+            <div class="frosmo col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="col-xs-12 blur">
+                <a href="http://frosmo.com/" target="_blank">
+                  <img src="img/frosmo-logo.png" class="frosmo-logo">
+                </a>
               </div>
+              <div class="col-xs-12">
+                <div>
+                    <p>
+                      <b><a href="http://frosmo.com/" target="_blank">FROSMO</a> is the forerunner in the Single Tag based UI improvement methodology.</b>
+                      <br/>
+                      Thanks to the Frosmo platform, online business owners can achieve unprecedented freedom, speed and cost-efficiency in developing unique experiences for their online customers. 
+                      <br/>
+
+                      Living up to the Best Exponential Startup title, Frosmo is growing fast and actively seeking talented people to join our international team. Frosmo’s Single Tag UI Improvement method opens up incredible opportunities to have an impact on the future of the internet. <br/>Check out our open vacancies on:
+                      <a href="http://frosmo.com/en/careers">http://frosmo.com/en/careers</a>
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="git col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="col-xs-12">
+                <a href="girlsintechhelsinki.weebly.com" target="_blank">
+                  <img src="img/gitlogo2.png" class="git-logo">
+                </a>
+              </div>
+              <div class="col-xs-12">
+                <p>
+                  <a href="http://www.girlsintechhelsinki.weebly.com" target="_blank">Girls in Tech (GIT)</a> is a global non-profit focused on the engagement, education and empowerment of girls and women who are passionate about technology. Girls in Tech Helsinki started its operations in May 2015 and is the first GIT chapter in the Nordics.
+                </p>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </div>
-
-       <!-- Tasks -->
-      <div class="row registration" id="register">
-        <!--<div class="col-sm-8 col-sm-offset-2 col-xs-12">
-              <h2 class="section-title-middle">Before applying</h2>
-              <p class="text">
-                Due to a limited amout of seats during the workshop, we kindly ask all applicants to fulfill the tasks below before applying. 
-                These tests help verifying that your starting level of HTML&CSS (JavaScript - only basic things) is enough to enjoy our workshop to the fullest. You only need to complete 2 of them, the ones that seem to be more interesting for you.
-                To submit your tasks, please create an account on codepen.io and create code snippets ('pens') with your code. Then save them and attach links to your application in the appropriate field. Good luck!
-                <br>
-                <br>
-                <b>PS:</b> If you do not have any basic knowledge of HTML, CSS or Javascript yet, you can still attend the workshop! To study the basics of HTML/CSS/JS, visit the following links: <a href="http://w3schools.com">w3schools.com</a>, <a href="http://css-tricks.com">css-tricks.com</a>
-              </p>
-              <div class="row tasks">
-                <div class="col-sm-6 col-xs-12 task">
-                  <h4>Task1</h4>
-                
-                  <p data-height="265" data-theme-id="light" data-slug-hash="VKkdQA" data-default-tab="html,result" data-user="riittagirl" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/riittagirl/pen/VKkdQA/">Task 1 : Hedy Lamar <img> </a> by Margarita (<a href="http://codepen.io/riittagirl">@riittagirl</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-                </div>
-                <div class="col-sm-6 col-xs-12 task">
-                  <h4>Task2</h4>
-                  
-                  <p data-height="265" data-theme-id="light" data-slug-hash="yaBEdZ" data-default-tab="html,result" data-user="riittagirl" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/riittagirl/pen/yaBEdZ/" target="_blank">Task2: Display blocks</a> by Margarita (<a href="http://codepen.io/riittagirl">@riittagirl</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-                </div>
-                <div class="col-sm-6 col-xs-12 task">
-                  <h4>Task3</h4>
-                  
-                  <p data-height="265" data-theme-id="light" data-slug-hash="ORLwPY" data-default-tab="html,result" data-user="riittagirl" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/riittagirl/pen/ORLwPY/" target="_blank">Test 3: Create Horisontal menu</a> by Margarita (<a href="http://codepen.io/riittagirl">@riittagirl</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-                </div>
-                <div class="col-sm-6 col-xs-12 task">
-                  <h4>Task4</h4>
-                  
-                  <p data-height="265" data-theme-id="light" data-slug-hash="YGKOEw" data-default-tab="html,result" data-user="riittagirl" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/riittagirl/pen/YGKOEw/" target="_blank">Task4: Panda image</a> by Margarita (<a href="http://codepen.io/riittagirl">@riittagirl</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-                  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-                </div>  
-              </div>  
-              <div class="form-link">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_rgnwQ9dE-HUgZrhSojdNkOHyBevrCNotbR3KOhbU3NvTLA/viewform?embedded=true" target="_blank">I’ve done the tasks and want to apply!</a>
-              </div>
-        </div>-->
-        <!--<div class="col-sm-8 col-sm-offset-2 col-xs-12">
-          <h2 class="section-title-middle">Coaches</h2>
-
-        </div>-->
-      </div>
-      
       
       <footer class="row footer">
-        <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-3 col-lg-2">
+        <div class="col-xs-10 col-xs-offset-1 col-md-3 col-lg-2">
           <img src="img/FROSMO.png" class="frosmo-logo-footer">
           <div class="info-in-footer">
             <p><a href="http://frosmo.com">FROSMO</a> LTD (European Head Office) 
             <br>
             Kaivokatu 8 B, 00100 Helsinki, FINLAND 
             </p>
-
             <ul>
               <li><a href="https://twitter.com/Frosmo" target="_blank">Twitter</a></li>
               <li><a href="https://fi-fi.facebook.com/frosmoltd/" target="_blank">Facebook</a></li>
@@ -731,7 +636,6 @@
               <li><a href="https://www.instagram.com/frosmo_/" target="_blank">Instagram</a></li>
             </ul>
           </div>
-         
         </div>
         <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-5 col-lg-3">
           <img src="img/girlsinTech.jpg" class="git-logo-footer">
@@ -750,9 +654,7 @@
               <li><a href="https://www.facebook.com/girlsintechhelsinki/" target="_blank">Facebook</a></li>
             </ul>
           </div>
-         
         </div>
-       
       </footer>
       
     </div>
@@ -761,13 +663,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $("button").click(function() {
-            $('html,body').animate({
-                scrollTop: $("#register").offset().top},
-                'slow');
-        });
-    </script>
+
     <script type="text/javascript">
       $(window).click(function() {
       //Hide the menus if visible
@@ -777,14 +673,13 @@
       $(".speaker-img").click(function(event){
         $(".speaker-info-advanced").css("display", "none");
         event.stopPropagation();
-        console.log(event.currentTarget.nextElementSibling.lastElementChild);
         var el = event.currentTarget.nextElementSibling.lastElementChild;
         $(el).css("display", "block").addClass("row");
         $(el).click(function(event){
             event.stopPropagation();
         });
         $(".speaker-info-advanced").click(function(){
-           $(".speaker-info-advanced").css("display", "none");
+          $(".speaker-info-advanced").css("display", "none");
         });
 
       });
